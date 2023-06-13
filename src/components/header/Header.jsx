@@ -1,4 +1,5 @@
 import "/src/css/Header.css";
+import LinkBox from "/src/components/links/LinkBox"
 import stockDude from "/src/assets/stock-dude.webp";
 
 function Header() {
@@ -18,6 +19,7 @@ function Header() {
           id ullamcorper lectus.
         </p>
       </div>
+      {/* <LinkBox></LinkBox> */}
     </div>
   );
 }

@@ -6,8 +6,8 @@ import "/src/css/ProjectsSection.css";
 function ProjectsSection() {
   return (
     <div className="projects-section">
-      <div className="projects-container">
       <h2>My Work</h2>
+      <div className="projects-container">
         {projects.map((project) => (
           <ProjectPolaroid key={project.title} project={project} />
         ))}

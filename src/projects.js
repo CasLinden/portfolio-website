@@ -69,7 +69,7 @@ const projects = [
     description: "Lorem ipsum dolamet marcus aurelius populus clamat.",
     hasMobileVersion: true,
     colorAccent: '#FFE98C',
-    tags: ["JavaScript basics", "HTML", "CSS"]
+    tags: ["HTML", "CSS", "JavaScript"]
   },
   // {
   //   title: "Web-a-sketch",
