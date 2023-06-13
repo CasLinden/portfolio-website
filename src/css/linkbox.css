@@ -1,0 +1,15 @@
+.linkbox{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.github-icon-container{
+    width: 60px;
+    height: 60px;
+}
+
+.linked-in-icon-container{
+    width: 65px;
+    height: 65px;
+}

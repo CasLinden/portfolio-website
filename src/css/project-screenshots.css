@@ -1,0 +1,54 @@
+.Line-Order .project-image {
+    background-image: url('/src/assets/screenshots/Line\ Order.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.CV-Builder .project-image{
+    background-image: url('/src/assets/screenshots/CV\ Builder.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.Weather-App .project-image{
+    background-image: url('/src/assets/screenshots/Weather\ App.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.Knight-Moves .project-image{
+    background-image: url('/src/assets/screenshots/Knight\ Moves.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.Smart-Todo .project-image{
+    background-image: url('/src/assets/screenshots/Smart\ Todo.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.Tic-tac-toe .project-image{
+    background-image: url('/src/assets/screenshots/Tic-tac-toe.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.User-Dashboard .project-image{
+    background-image: url('/src/assets/screenshots/User\ Dashboard.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.Calculator .project-image{
+    background-image: url('/src/assets/screenshots/Calculator.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.Web-a-sketch .project-image{
+    background-image: url('/src/assets/screenshots/Web-a-sketch.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center top;
+}

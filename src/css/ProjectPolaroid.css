@@ -1,0 +1,138 @@
+.project-polaroid {
+  height: 380px;
+  width: 320px;
+  display: grid;
+  grid-template-rows: 150px 75px;
+  background-color: #ffffff;
+  padding: 16px;
+  display: grid;
+  grid-template-rows: 232px 1fr;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-polaroid .image-section {
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.smartphone-outline {
+    width: 100%;
+    height: 200%;
+    background-image: url("/src/assets/empty-smartphone.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: auto;
+}
+
+.monitor-outline{
+  width: 80%;
+  height: 100%;
+  margin-left: 22%;
+  margin-bottom: 10%;
+  background-image: url("/src/assets/empty-monitor.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 30%;
+}
+
+.smartphone-outline, .monitor-outline {
+  position: relative; 
+  display: flex;       
+  align-items: center;
+  justify-content: center;
+}
+
+.project-image{
+  position: absolute;
+}
+
+.smartphone-outline .project-image{
+  background: yellow;
+  height: 33.34%;
+  width: 175px;
+  top: 16.65%;
+  left: 19.7%;
+  left: 56px;
+}
+
+.monitor-outline .project-image{
+  background: yellow;
+  width: 97%;
+  height: 60.5%;
+  top: 3.1%;
+  left: 3.04%;
+}
+
+a.live-preview-link{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+a.live-preview-link:hover{
+  filter: brightness(80%);
+}
+
+a .link-icon{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+}
+
+.link-icon img{
+  width: 30px;
+  height: 30px;
+}
+
+.text-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h3.project-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 4px 0px 4px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+h3.project-title .github-icon-container{
+ width: 20px;
+ height: 20px;
+}
+
+.github-icon-container img{
+  width: 100%;
+}
+
+.project-tags-container{
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.project-tag{
+  color: #878787;
+  font-weight: 700;
+  background-color: #F5F5F5;
+  padding: 2px 6px 2px 6px;
+  font-size: .7rem;
+  letter-spacing: 2px;
+  
+}
+

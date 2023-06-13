@@ -1,13 +1,18 @@
+.header{
+    padding: 16px;
+}
+
 .header-image-container{
     position: relative;
     padding-top: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .header-image{
-    width: 95%
+    width: 100%;
 }
 
 .header-image-container h1{
@@ -15,10 +20,10 @@
     margin: 0;
     bottom: 0px;
     left: 10px;
+    color: #FFFFFF;
 }
 
 .about-me-section{
-    padding: 16px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -27,4 +32,5 @@
 
 .about-me-section h2{
     margin: 0;
+    align-self: start;
 }

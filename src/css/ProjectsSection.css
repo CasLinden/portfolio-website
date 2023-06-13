@@ -2,16 +2,20 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
+    background-color: var(--bg-grey) ;
 }
 
 .projects-container{
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
+    justify-items: center;
     gap: 16px;
     width: 100%;
+}
+
+.projects-container h2{
+    margin-bottom: 0;
 }
 
 

@@ -1,6 +1,7 @@
 import octocat from "/src/assets/github-mark.svg"
 
 function GitHubLink ({location}) {
+  console.log(location)
   return (
     <div className="github-icon-container">
       <a href={location} target="_blank" rel="noopener noreferrer">

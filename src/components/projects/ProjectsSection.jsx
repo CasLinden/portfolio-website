@@ -1,15 +1,15 @@
 import projects from "/src/projects.js";
-import ProjectsCard from "./ProjectsCard";
+import ProjectPolaroid from "./ProjectPolaroid"
 
 import "/src/css/ProjectsSection.css";
 
 function ProjectsSection() {
   return (
     <div className="projects-section">
-      <h2>My Work</h2>
       <div className="projects-container">
+      <h2>My Work</h2>
         {projects.map((project) => (
-          <ProjectsCard key={project.title} project={project} />
+          <ProjectPolaroid key={project.title} project={project} />
         ))}
       </div>
     </div>
