@@ -1,5 +1,7 @@
 import "/src/css/Footer.css"
-import calling from "/src/assets/calling.jpeg"
+import casWithComputer480 from "/src/assets/cas-with-computer-480px.jpg"
+import casWithComputer700 from "/src/assets/cas-with-computer-700px.jpg"
+import casWithComputer1200 from "/src/assets/cas-with-computer-1200px.jpg"
 import LinkBox from "../links/LinkBox"
 
 function Footer () {
@@ -18,7 +20,18 @@ function Footer () {
             </div>
             <LinkBox></LinkBox>
             <div className="footer-image">
-                <img src={calling} alt="" />
+                <img 
+                    // src={casWithComputer480}
+                    srcSet={`
+                        ${casWithComputer480} 480w, 
+                        ${casWithComputer700} 700w, 
+                        ${casWithComputer1200} 1200w
+                    `}
+                    sizes="(max-width: 480px) 480px, 
+                           (max-width: 700px) 700px, 
+                           1200px"
+                    alt="picture of cas working on a laptop computer" 
+                />
             </div>
         </div>
     )
