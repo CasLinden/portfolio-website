@@ -1,29 +1,29 @@
 .Line-Order .project-image {
-    background-image: url('/src/assets/screenshots/Line\ Order.png');
+    background-image: url('/src/assets/screenshots/Line-Order.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .CV-Builder .project-image{
-    background-image: url('/src/assets/screenshots/CV\ Builder.png');
+    background-image: url('/src/assets/screenshots/CV-Builder.png');
     background-repeat: no-repeat;
     background-size: cover; 
 }
 
 .Weather-App .project-image{
-    background-image: url('/src/assets/screenshots/Weather\ App.png');
+    background-image: url('/src/assets/screenshots/Weather-App.png');
     background-repeat: no-repeat;
     background-size: cover; 
 }
 
 .Knight-Moves .project-image{
-    background-image: url('/src/assets/screenshots/Knight\ Moves.png');
+    background-image: url('/src/assets/screenshots/Knight-Moves.png');
     background-repeat: no-repeat;
     background-size: cover; 
 }
 
 .Smart-Todo .project-image{
-    background-image: url('/src/assets/screenshots/Smart\ Todo.png');
+    background-image: url('/src/assets/screenshots/Smart-Todo.png');
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -35,7 +35,7 @@
 }
 
 .User-Dashboard .project-image{
-    background-image: url('/src/assets/screenshots/User\ Dashboard.png');
+    background-image: url('/src/assets/screenshots/User-Dashboard.png');
     background-repeat: no-repeat;
     background-size: cover; 
 }
