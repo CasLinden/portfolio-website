@@ -21,7 +21,7 @@ function Footer () {
             <LinkBox></LinkBox>
             <div className="footer-image">
                 <img 
-                    // src={casWithComputer480}
+                    src={casWithComputer480}
                     srcSet={`
                         ${casWithComputer480} 480w, 
                         ${casWithComputer700} 700w, 

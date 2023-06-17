@@ -9,14 +9,14 @@ function Header() {
       <div className="header-image-container">
         <img
           className="header-image"
-          // src={portrait480}
+          src={portrait480}
           srcSet={`
-            ${portrait480} 480w, 
-            ${portrait700} 700w, 
+            ${portrait480} 480w,
+            ${portrait700} 700w,
             ${portrait1200} 1200w
           `}
-          sizes="(max-width: 480px) 480px, 
-                 (max-width: 700px) 700px, 
+          sizes="(max-width: 480px) 480px,
+                 (max-width: 700px) 700px,
                  1200px"
           alt="portrait picture of cas in the park"
         />
@@ -38,4 +38,3 @@ function Header() {
 }
 
 export default Header;
-
