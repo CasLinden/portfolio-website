@@ -2,45 +2,85 @@
     padding: 16px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 16px;
 }
 
 .header-image-container{
     position: relative;
-    padding-top: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .header-image{
     width: 100%;
 }
 
-.header-image-container h1{
+/* .header-image-container h1{
     position: absolute;
     margin: 0;
     bottom: 0px;
     left: 10px;
     color: #FFFFFF;
-}
+} */
 
 .about-me-section{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding: 4px;
 }
 
-.about-me-section h2{
+.about-me-text-card{
+    background-color: white;
+    padding: 32px;
+    border-radius: 8px;
+    transform: rotate(-2deg);
+}
+
+.about-me-text-card p{
+    margin: 0;
+}
+
+/* .about-me-section h2{
     margin: 0;
     align-self: start;
-}
+} */
 
 @media screen and (min-width: 700px) {
-   
+   .header{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    grid-template-areas: "about-me header-image";
+    margin-top: 10%;
+    padding: 32px;
+   }
+
+   .about-me-section{
+    grid-area: about-me;
+   }
+
+   .header-image-container{
+    grid-area: header-image;
+    width: 75%;
+    transform: rotate(3deg);
+    /* z-index: 2; */
+   }
+
+   .about-me-text-card{
+    width: 65%;
+    align-self: flex-end;
+    transform: translateX(5%) translateY(20%) rotate(-5deg);
+   }
+
+
    
 }
 
 @media screen and (min-width: 1024px) {
+
 
   }

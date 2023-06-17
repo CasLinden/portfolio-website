@@ -11,27 +11,25 @@ function Header() {
           className="header-image"
           src={portrait480}
           srcSet={`
-            ${portrait480} 480w,
-            ${portrait700} 700w,
-            ${portrait1200} 1200w
+          ${portrait480} 480w,
+          ${portrait700} 700w,
+          ${portrait1200} 1200w
           `}
           sizes="(max-width: 480px) 480px,
-                 (max-width: 700px) 700px,
-                 1200px"
+          (max-width: 700px) 700px,
+          1200px"
           alt="portrait picture of cas in the park"
         />
-        <h1>Cas Linden</h1>
+        {/* <h1>Cas Linden</h1> */}
       </div>
-      <div className="about-me-section">
-        <h2>About me</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          aliquet auctor eros nec molestie. Maecenas malesuada venenatis libero,
-          a auctor tellus tincidunt ut. Curabitur id convallis nulla. Nulla ac
-          purus auctor, tincidunt risus eget, gravida mi. Nulla facilisi. Aenean
-          id ullamcorper lectus.
-        </p>
-      </div>
+          <div className="about-me-section">
+            {/* <h2>About me</h2> */}
+            <div className="about-me-text-card">
+              <p>
+               I&apos;m always learning something new. These days it&apos;s web development. The snapshots below tell a story about my learning process. Please go ahead and have a look.
+              </p>
+            </div>
+          </div>
       {/* <LinkBox></LinkBox> */}
     </div>
   );
