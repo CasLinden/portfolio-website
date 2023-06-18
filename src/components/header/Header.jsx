@@ -1,4 +1,5 @@
 import "/src/css/Header.css";
+import AnimatedGreeting from "./AnimatedGreeting";
 import portrait480 from "/src/assets/portrait-cas-480px.jpg";
 import portrait700 from "/src/assets/portrait-cas-700px.jpg";
 import portrait1200 from "/src/assets/portrait-cas-1200px.jpg";
@@ -20,8 +21,10 @@ function Header() {
           1200px"
           alt="portrait picture of cas in the park"
         />
-        {/* <h1>Cas Linden</h1> */}
       </div>
+        <div className="hi-im-cas">
+          <AnimatedGreeting></AnimatedGreeting>
+        </div>
           <div className="about-me-section">
             {/* <h2>About me</h2> */}
             <div className="about-me-text-card">
