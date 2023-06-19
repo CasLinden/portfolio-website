@@ -6,7 +6,7 @@
 }
 .footer-top-wrapper{
 padding: 16px;
-background-image: url("/src/assets/layer-background-320px.svg");
+/* background-image: url("/src/assets/layer-background-320px.svg"); */
 background-repeat: no-repeat;
 background-size: cover;
 margin-left: 10%;
@@ -29,7 +29,7 @@ margin-left: 10%;
 
 @media screen and (min-width: 700px) {
     .footer-top-wrapper{
-    background-image: url("/src/assets/layer-background.svg");
+    /* background-image: url("/src/assets/layer-background.svg"); */
     }
    
 }

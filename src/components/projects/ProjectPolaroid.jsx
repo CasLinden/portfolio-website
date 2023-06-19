@@ -3,7 +3,7 @@ import DeviceOutline from "./DeviceOutline";
 import hyphenateString from "/src/utils/hyphenateString";
 import link from "/src/assets/link.svg"
 import "/src/css/ProjectPolaroid.css";
-import "/src/css/project-screenshots.css";
+import "/src/css/ProjectScreenshots.css";
 
 function ProjectPolaroid({ project }) {
   return (

@@ -29,7 +29,7 @@ function Header() {
             {/* <h2>About me</h2> */}
             <div className="about-me-text-card">
               <p>
-               I&apos;m always learning something new. These days it&apos;s web development. The snapshots below tell a story about my learning process. Please go ahead and have a look.
+               I&apos;m always learning something new. These days it&apos;s web development. The snapshots below tell a story about my learning journey. Have a look at what I&apos;ve been building!
               </p>
             </div>
           </div>
