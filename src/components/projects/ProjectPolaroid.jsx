@@ -20,7 +20,9 @@ function ProjectPolaroid({ project }) {
         </div>
       </a>
       <div className="text-section">
-        <h3 className="project-title">{project.title} <GitHubLink location={project.gitHub}></GitHubLink> </h3>
+        <a href={project.livePreview}>
+          <h3 className="project-title">{project.title} <GitHubLink location={project.gitHub}></GitHubLink> </h3>
+        </a>
         <div></div>
         <div className="project-tags-container">
           {project.tags &&
