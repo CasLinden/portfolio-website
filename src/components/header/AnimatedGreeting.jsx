@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-function AnimatedGreeting() {
+function AnimatedGreeting({startAnimation}) {
   const pathRefs = useRef([]);
 
   const addRef = (el) => {
@@ -10,6 +10,7 @@ function AnimatedGreeting() {
   };
 
   useEffect(() => {
+    if(startAnimation) {
     let totalDuration = 0;
     const durations = [300, 50, 50, 175, 50, 200, 100, 300, 250, 250, 350, 50];
 
@@ -46,7 +47,8 @@ function AnimatedGreeting() {
 
       styleSheet.insertRule(keyframes, styleSheet.cssRules.length);
     });
-  }, []);
+    } 
+  }, [startAnimation]);
 
   return (
     <div className="greeting-svg-container">
