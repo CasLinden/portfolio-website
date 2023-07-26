@@ -1,8 +1,8 @@
 const projects = [
   {
     title: "Line Order",
-    gitHub: "https://github.com/CasLinden/yamanote-line",
-    livePreview: "https://caslinden.github.io/yamanote-line/",
+    gitHub: "https://github.com/CasLinden/line-order/",
+    livePreview: "https://caslinden.github.io/line-order/",
     description: "Lorem ipsum dolamet marcus aurelius populus clamat.",
     hasMobileVersion: true,
     colorAccent: "#79B5B5",
