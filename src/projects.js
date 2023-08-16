@@ -1,12 +1,21 @@
 const projects = [
   {
+    title: "Text Saver",
+    gitHub: "https://github.com/CasLinden/text-saver/",
+    livePreview: "https://text-saver-production.up.railway.app/",
+    description: "Lorem ipsum dolamet marcus aurelius populus clamat.",
+    hasMobileVersion: false,
+    colorAccent: "#BAE1FF",
+    tags: ["Node JS", "Express", "MongoDB", "EJS", "JavaScript", "CSS"]
+  },
+  {
     title: "Line Order",
     gitHub: "https://github.com/CasLinden/line-order/",
     livePreview: "https://caslinden.github.io/line-order/",
     description: "Lorem ipsum dolamet marcus aurelius populus clamat.",
     hasMobileVersion: true,
     colorAccent: "#79B5B5",
-    tags: ["REACT", "JavaScript", "CSS", "VITE", "fully responsive", "game"]
+    tags: ["REACT", "JavaScript", "CSS", "VITE", "responsive", "game"]
   },
   {
     title: "CV Builder",

@@ -1,3 +1,9 @@
+.Text-Saver .project-image {
+    background-image: url('/src/assets/screenshots/Text-Saver.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .Line-Order .project-image {
     background-image: url('/src/assets/screenshots/Line-Order.png');
     background-repeat: no-repeat;
