@@ -1,5 +1,14 @@
 const projects = [
   {
+    title: "都道府県人口-Prefecture-Population",
+    gitHub: "https://github.com/CasLinden/prefecture-population",
+    livePreview: "https://prefecture-population-delta.vercel.app/",
+    description: "Lorem ipsum dolamet marcus aurelius populus clamat.",
+    hasMobileVersion: true,
+    colorAccent: "#2c3e50",
+    tags: ["VUE", "Chart.js", "CSS"]
+  },
+  {
     title: "Text Saver",
     gitHub: "https://github.com/CasLinden/text-saver/",
     livePreview: "https://text-saver-production.up.railway.app/",

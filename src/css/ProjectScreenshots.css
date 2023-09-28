@@ -1,3 +1,9 @@
+.都道府県人口-Prefecture-Population .project-image {
+    background-image: url('/src/assets/screenshots/都道府県人口-Prefecture-Population.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .Text-Saver .project-image {
     background-image: url('/src/assets/screenshots/Text-Saver.png');
     background-repeat: no-repeat;
